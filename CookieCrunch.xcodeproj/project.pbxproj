@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA57AF71E76B63A0068E39E /* MMChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA57AF61E76B63A0068E39E /* MMChain.m */; };
+		FCA7147F1E6FE4A6005FBA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA7147E1E6FE4A6005FBA5D /* main.m */; };
+		FCA714821E6FE4A6005FBA5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA714811E6FE4A6005FBA5D /* AppDelegate.m */; };
+		FCA714891E6FE4A6005FBA5D /* MMGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA714881E6FE4A6005FBA5D /* MMGameScene.m */; };
+		FCA7148C1E6FE4A6005FBA5D /* MMGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA7148B1E6FE4A6005FBA5D /* MMGameViewController.m */; };
+		FCA7148F1E6FE4A6005FBA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA7148D1E6FE4A6005FBA5D /* Main.storyboard */; };
+		FCA714911E6FE4A6005FBA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA714901E6FE4A6005FBA5D /* Assets.xcassets */; };
+		FCA714941E6FE4A6005FBA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA714921E6FE4A6005FBA5D /* LaunchScreen.storyboard */; };
+		FCA7149C1E6FE6CD005FBA5D /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FCA7149B1E6FE6CD005FBA5D /* Sprites.atlas */; };
+		FCA714A91E6FF7DC005FBA5D /* MMCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA714A81E6FF7DC005FBA5D /* MMCookie.m */; };
+		FCA714AC1E6FFB89005FBA5D /* MMLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA714AB1E6FFB89005FBA5D /* MMLevel.m */; };
+		FCA714B31E7006E4005FBA5D /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA714AE1E7006E4005FBA5D /* Level_0.json */; };
+		FCA714B41E7006E4005FBA5D /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA714AF1E7006E4005FBA5D /* Level_1.json */; };
+		FCA714B51E7006E4005FBA5D /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA714B01E7006E4005FBA5D /* Level_2.json */; };
+		FCA714B61E7006E4005FBA5D /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA714B11E7006E4005FBA5D /* Level_3.json */; };
+		FCA714B71E7006E4005FBA5D /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA714B21E7006E4005FBA5D /* Level_4.json */; };
+		FCA714BA1E700A4F005FBA5D /* MMTile.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA714B91E700A4F005FBA5D /* MMTile.m */; };
+		FCA714BD1E7027D5005FBA5D /* MMSwap.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA714BC1E7027D5005FBA5D /* MMSwap.m */; };
+		FCA714CC1E758412005FBA5D /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCA714C61E758412005FBA5D /* Chomp.wav */; };
+		FCA714CD1E758412005FBA5D /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCA714C71E758412005FBA5D /* Drip.wav */; };
+		FCA714CE1E758412005FBA5D /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCA714C81E758412005FBA5D /* Error.wav */; };
+		FCA714CF1E758412005FBA5D /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCA714C91E758412005FBA5D /* Ka-Ching.wav */; };
+		FCA714D01E758412005FBA5D /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCA714CA1E758412005FBA5D /* Mining by Moonlight.mp3 */; };
+		FCA714D11E758412005FBA5D /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCA714CB1E758412005FBA5D /* Scrape.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCA57AF51E76B63A0068E39E /* MMChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMChain.h; sourceTree = "<group>"; };
+		FCA57AF61E76B63A0068E39E /* MMChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMChain.m; sourceTree = "<group>"; };
+		FCA7147A1E6FE4A6005FBA5D /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA7147E1E6FE4A6005FBA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA714801E6FE4A6005FBA5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCA714811E6FE4A6005FBA5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCA714871E6FE4A6005FBA5D /* MMGameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMGameScene.h; sourceTree = "<group>"; };
+		FCA714881E6FE4A6005FBA5D /* MMGameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMGameScene.m; sourceTree = "<group>"; };
+		FCA7148A1E6FE4A6005FBA5D /* MMGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMGameViewController.h; sourceTree = "<group>"; };
+		FCA7148B1E6FE4A6005FBA5D /* MMGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMGameViewController.m; sourceTree = "<group>"; };
+		FCA7148E1E6FE4A6005FBA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA714901E6FE4A6005FBA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA714931E6FE4A6005FBA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA714951E6FE4A6005FBA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA7149B1E6FE6CD005FBA5D /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		FCA714A71E6FF7DC005FBA5D /* MMCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCookie.h; sourceTree = "<group>"; };
+		FCA714A81E6FF7DC005FBA5D /* MMCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCookie.m; sourceTree = "<group>"; };
+		FCA714AA1E6FFB89005FBA5D /* MMLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLevel.h; sourceTree = "<group>"; };
+		FCA714AB1E6FFB89005FBA5D /* MMLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLevel.m; sourceTree = "<group>"; };
+		FCA714AE1E7006E4005FBA5D /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		FCA714AF1E7006E4005FBA5D /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		FCA714B01E7006E4005FBA5D /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		FCA714B11E7006E4005FBA5D /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		FCA714B21E7006E4005FBA5D /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		FCA714B81E700A4F005FBA5D /* MMTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTile.h; sourceTree = "<group>"; };
+		FCA714B91E700A4F005FBA5D /* MMTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTile.m; sourceTree = "<group>"; };
+		FCA714BB1E7027D5005FBA5D /* MMSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSwap.h; sourceTree = "<group>"; };
+		FCA714BC1E7027D5005FBA5D /* MMSwap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSwap.m; sourceTree = "<group>"; };
+		FCA714C61E758412005FBA5D /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		FCA714C71E758412005FBA5D /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drip.wav; sourceTree = "<group>"; };
+		FCA714C81E758412005FBA5D /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		FCA714C91E758412005FBA5D /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
+		FCA714CA1E758412005FBA5D /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
+		FCA714CB1E758412005FBA5D /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA714771E6FE4A6005FBA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA714711E6FE4A6005FBA5D = {
+			isa = PBXGroup;
+			children = (
+				FCA7147C1E6FE4A6005FBA5D /* CookieCrunch */,
+				FCA7147B1E6FE4A6005FBA5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA7147B1E6FE4A6005FBA5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7147A1E6FE4A6005FBA5D /* CookieCrunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA7147C1E6FE4A6005FBA5D /* CookieCrunch */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714A01E6FE73E005FBA5D /* Controller */,
+				FCA7149E1E6FE72F005FBA5D /* Model */,
+				FCA7147D1E6FE4A6005FBA5D /* Supporting Files */,
+				FCA7149F1E6FE737005FBA5D /* View */,
+				FCA714871E6FE4A6005FBA5D /* MMGameScene.h */,
+				FCA714881E6FE4A6005FBA5D /* MMGameScene.m */,
+			);
+			path = CookieCrunch;
+			sourceTree = "<group>";
+		};
+		FCA7147D1E6FE4A6005FBA5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7147E1E6FE4A6005FBA5D /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCA7149D1E6FE726005FBA5D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714801E6FE4A6005FBA5D /* AppDelegate.h */,
+				FCA714811E6FE4A6005FBA5D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FCA7149E1E6FE72F005FBA5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7149D1E6FE726005FBA5D /* AppDelegate */,
+				FCA714A11E6FE747005FBA5D /* Object */,
+				FCA714A51E6FE7AD005FBA5D /* Resource */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCA7149F1E6FE737005FBA5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714A31E6FE755005FBA5D /* Reuseable */,
+				FCA714A21E6FE751005FBA5D /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCA714A01E6FE73E005FBA5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714A41E6FE788005FBA5D /* GameViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCA714A11E6FE747005FBA5D /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714A71E6FF7DC005FBA5D /* MMCookie.h */,
+				FCA714A81E6FF7DC005FBA5D /* MMCookie.m */,
+				FCA714AA1E6FFB89005FBA5D /* MMLevel.h */,
+				FCA714AB1E6FFB89005FBA5D /* MMLevel.m */,
+				FCA714B81E700A4F005FBA5D /* MMTile.h */,
+				FCA714B91E700A4F005FBA5D /* MMTile.m */,
+				FCA714BB1E7027D5005FBA5D /* MMSwap.h */,
+				FCA714BC1E7027D5005FBA5D /* MMSwap.m */,
+				FCA57AF51E76B63A0068E39E /* MMChain.h */,
+				FCA57AF61E76B63A0068E39E /* MMChain.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		FCA714A21E6FE751005FBA5D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714921E6FE4A6005FBA5D /* LaunchScreen.storyboard */,
+				FCA7148D1E6FE4A6005FBA5D /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FCA714A31E6FE755005FBA5D /* Reuseable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reuseable;
+			sourceTree = "<group>";
+		};
+		FCA714A41E6FE788005FBA5D /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7148A1E6FE4A6005FBA5D /* MMGameViewController.h */,
+				FCA7148B1E6FE4A6005FBA5D /* MMGameViewController.m */,
+			);
+			path = GameViewController;
+			sourceTree = "<group>";
+		};
+		FCA714A51E6FE7AD005FBA5D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714C51E758412005FBA5D /* Sounds */,
+				FCA714AD1E7006E4005FBA5D /* Levels */,
+				FCA714901E6FE4A6005FBA5D /* Assets.xcassets */,
+				FCA714951E6FE4A6005FBA5D /* Info.plist */,
+				FCA7149B1E6FE6CD005FBA5D /* Sprites.atlas */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FCA714AD1E7006E4005FBA5D /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714AE1E7006E4005FBA5D /* Level_0.json */,
+				FCA714AF1E7006E4005FBA5D /* Level_1.json */,
+				FCA714B01E7006E4005FBA5D /* Level_2.json */,
+				FCA714B11E7006E4005FBA5D /* Level_3.json */,
+				FCA714B21E7006E4005FBA5D /* Level_4.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		FCA714C51E758412005FBA5D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FCA714C61E758412005FBA5D /* Chomp.wav */,
+				FCA714C71E758412005FBA5D /* Drip.wav */,
+				FCA714C81E758412005FBA5D /* Error.wav */,
+				FCA714C91E758412005FBA5D /* Ka-Ching.wav */,
+				FCA714CA1E758412005FBA5D /* Mining by Moonlight.mp3 */,
+				FCA714CB1E758412005FBA5D /* Scrape.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA714791E6FE4A6005FBA5D /* CookieCrunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA714981E6FE4A6005FBA5D /* Build configuration list for PBXNativeTarget "CookieCrunch" */;
+			buildPhases = (
+				FCA714761E6FE4A6005FBA5D /* Sources */,
+				FCA714771E6FE4A6005FBA5D /* Frameworks */,
+				FCA714781E6FE4A6005FBA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookieCrunch;
+			productName = CookieCrunch;
+			productReference = FCA7147A1E6FE4A6005FBA5D /* CookieCrunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA714721E6FE4A6005FBA5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Moosa Mir";
+				TargetAttributes = {
+					FCA714791E6FE4A6005FBA5D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCA714751E6FE4A6005FBA5D /* Build configuration list for PBXProject "CookieCrunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA714711E6FE4A6005FBA5D;
+			productRefGroup = FCA7147B1E6FE4A6005FBA5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA714791E6FE4A6005FBA5D /* CookieCrunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA714781E6FE4A6005FBA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA7149C1E6FE6CD005FBA5D /* Sprites.atlas in Resources */,
+				FCA714CD1E758412005FBA5D /* Drip.wav in Resources */,
+				FCA714B71E7006E4005FBA5D /* Level_4.json in Resources */,
+				FCA714CE1E758412005FBA5D /* Error.wav in Resources */,
+				FCA714B51E7006E4005FBA5D /* Level_2.json in Resources */,
+				FCA714D11E758412005FBA5D /* Scrape.wav in Resources */,
+				FCA714B31E7006E4005FBA5D /* Level_0.json in Resources */,
+				FCA714CC1E758412005FBA5D /* Chomp.wav in Resources */,
+				FCA714D01E758412005FBA5D /* Mining by Moonlight.mp3 in Resources */,
+				FCA7148F1E6FE4A6005FBA5D /* Main.storyboard in Resources */,
+				FCA714CF1E758412005FBA5D /* Ka-Ching.wav in Resources */,
+				FCA714911E6FE4A6005FBA5D /* Assets.xcassets in Resources */,
+				FCA714B41E7006E4005FBA5D /* Level_1.json in Resources */,
+				FCA714B61E7006E4005FBA5D /* Level_3.json in Resources */,
+				FCA714941E6FE4A6005FBA5D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA714761E6FE4A6005FBA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA714BD1E7027D5005FBA5D /* MMSwap.m in Sources */,
+				FCA7148C1E6FE4A6005FBA5D /* MMGameViewController.m in Sources */,
+				FCA714BA1E700A4F005FBA5D /* MMTile.m in Sources */,
+				FCA714821E6FE4A6005FBA5D /* AppDelegate.m in Sources */,
+				FCA714891E6FE4A6005FBA5D /* MMGameScene.m in Sources */,
+				FCA7147F1E6FE4A6005FBA5D /* main.m in Sources */,
+				FCA714AC1E6FFB89005FBA5D /* MMLevel.m in Sources */,
+				FCA57AF71E76B63A0068E39E /* MMChain.m in Sources */,
+				FCA714A91E6FF7DC005FBA5D /* MMCookie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA7148D1E6FE4A6005FBA5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA7148E1E6FE4A6005FBA5D /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		FCA714921E6FE4A6005FBA5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA714931E6FE4A6005FBA5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA714961E6FE4A6005FBA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCA714971E6FE4A6005FBA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA714991E6FE4A6005FBA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CookieCrunch/Model/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moosamir.CookieCrunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCA7149A1E6FE4A6005FBA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CookieCrunch/Model/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moosamir.CookieCrunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA714751E6FE4A6005FBA5D /* Build configuration list for PBXProject "CookieCrunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA714961E6FE4A6005FBA5D /* Debug */,
+				FCA714971E6FE4A6005FBA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA714981E6FE4A6005FBA5D /* Build configuration list for PBXNativeTarget "CookieCrunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA714991E6FE4A6005FBA5D /* Debug */,
+				FCA7149A1E6FE4A6005FBA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA714721E6FE4A6005FBA5D /* Project object */;
+}
